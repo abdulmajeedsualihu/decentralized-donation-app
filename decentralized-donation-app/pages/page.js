@@ -1,4 +1,4 @@
-import WalletConnect from '../../../decentralized-donation-app/decentralized-donation-app/app/components/WalletConnect';
+import WalletConnect from '../app/components/WalletConnect';
 
 export default function Home() {
   return (
