@@ -1,0 +1,50 @@
+form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  p {
+    font-size: 14px;
+    color: green;
+    margin-top: 10px;
+  }
+  /* Add this to your styles/globals.css file or directly use Tailwind's classes */
+.loader {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border-top-color: transparent;
+    animation: spin 0.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

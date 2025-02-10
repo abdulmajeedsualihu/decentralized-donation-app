@@ -1,0 +1,22 @@
+button {
+    padding: 10px 15px;
+    background-color: #f04e30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d03d27;
+  }
+  
+  p {
+    font-size: 14px;
+    color: green;
+    margin-top: 10px;
+  }
+  
+  p.error {
+    color: red;
+  }
